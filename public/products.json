@@ -1,0 +1,363 @@
+[
+    {
+      
+      "image": "https://images.bestsellerclothing.in/data/selected/3-oct-2022/114186601_g1.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto",
+      "product_name": "Slim Fit Jeans",
+      "brand": "Levi's",
+      "price": 49.99,
+      "category": "Jeans",
+      "short_description": "Classic slim fit denim jeans for all-day comfort."
+    },
+    {
+      
+      "image": "https://m.media-amazon.com/images/I/B1vjL6MUg1S._CLa%7C2140%2C2000%7C81-gfp2ZvjL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SL1500_.png",
+      "product_name": "Graphic T-Shirt",
+      "brand": "Nike",
+      "price": 24.99,
+      "category": "T-Shirt",
+      "short_description": "Soft cotton t-shirt with bold graphic design."
+    },
+    {
+      
+      "image": "https://www.independenttradingco.com/cdn/shop/products/IND4000C-GNM_8529eddf-f15f-42ea-8326-66151e6196e3_2048x.jpg?v=1573838866",
+      "product_name": "Hooded Sweatshirt",
+      "brand": "Adidas",
+      "price": 59.99,
+      "category": "Sweatshirt",
+      "short_description": "Comfortable hoodie with adjustable drawstring."
+    },
+    {
+      
+      "image": "https://images.bewakoof.com/uploads/grid/app/types-of-shirts-for-men-bewakoof-blog-2-1610963787.jpg",
+      "product_name": "Formal Dress Shirt",
+      "brand": "H&M",
+      "price": 39.99,
+      "category": "Shirt",
+      "short_description": "Crisp white dress shirt for formal occasions."
+    },
+    {
+      
+      "image": "https://m.media-amazon.com/images/I/61qKe8uNa8L._AC_UY1000_.jpg",
+      "product_name": "Leather Jacket",
+      "brand": "Zara",
+      "price": 89.99,
+      "category": "Jacket",
+      "short_description": "Stylish leather jacket with zipper detailing."
+    },
+    {
+      
+      "image": "https://www.therange.co.uk/media/8/0/1654773719_12_7979.png",
+      "product_name": "Casual Shorts",
+      "brand": "Puma",
+      "price": 29.99,
+      "category": "Shorts",
+      "short_description": "Breathable fabric casual shorts for daily wear."
+    },
+    {
+      
+      "image": "https://m.media-amazon.com/images/I/71fr98Oi3dL._AC_SL1100_.jpg",
+      "product_name": "Athletic Tracksuit",
+      "brand": "Reebok",
+      "price": 69.99,
+      "category": "Tracksuit",
+      "short_description": "Lightweight tracksuit perfect for workouts."
+    },
+    {
+      
+      "image": "https://images.meesho.com/images/products/314249360/rybaa_512.webp",
+      "product_name": "Floral Print Dress",
+      "brand": "Forever 21",
+      "price": 49.99,
+      "category": "Dress",
+      "short_description": "Flowy floral print dress with a flattering fit."
+    },
+    {
+      
+      "image": "https://5.imimg.com/data5/RN/GL/MY-15916330/woolen-sweaters.jpg",
+      "product_name": "Woolen Sweater",
+      "brand": "Uniqlo",
+      "price": 59.99,
+      "category": "Sweater",
+      "short_description": "Cozy woolen sweater perfect for winter."
+    },
+    {
+      
+      "image": "https://m.media-amazon.com/images/I/613z1j7fUML._AC_SL1500_.jpg",
+      "product_name": "Cargo Pants",
+      "brand": "Gap",
+      "price": 44.99,
+      "category": "Pants",
+      "short_description": "Comfortable cargo pants with multiple pockets."
+    },
+    {
+      
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRfpgo76S1B6HPWeFHzocLINOSKE2vaEpDFg&s",
+      "product_name": "Denim Jacket",
+      "brand": "Levi's",
+      "price": 69.99,
+      "category": "Jacket",
+      "short_description": "Classic denim jacket with a modern fit."
+    },
+    {
+      
+      "image": "https://fabrilife.com/products/65278f8693e7e-square.jpeg",
+      "product_name": "Polo Shirt",
+      "brand": "Ralph Lauren",
+      "price": 39.99,
+      "category": "Shirt",
+      "short_description": "Iconic polo shirt with embroidered logo."
+    },
+    {
+      
+      "image": "https://m.media-amazon.com/images/I/610ovjYEPqL._AC_SL1500_.jpg",
+      "product_name": "Maxi Skirt",
+      "brand": "H&M",
+      "price": 34.99,
+      "category": "Skirt",
+      "short_description": "Elegant maxi skirt with a flowing silhouette."
+    },
+    {
+      
+      "image": "https://cdn11.bigcommerce.com/s-a12530yfk6/images/stencil/original/image-manager/generative-ai-illustration-of-close-up-at-the-runner-feet-is-running-on-the-dirt-route-at-the-jungle-street-and-road-trail-running-sport-action-and-human-challenge-concept-photo.jpeg?t=1693957590",
+      "product_name": "Running Shoes",
+      "brand": "Nike",
+      "price": 89.99,
+      "category": "Shoes",
+      "short_description": "Lightweight running shoes for ultimate comfort."
+    },
+    {
+      
+      "image": "https://artisanclick.com/wp-content/uploads/2022/01/Jan-32-scaled.jpg",
+      "product_name": "Blazer",
+      "brand": "Zara",
+      "price": 79.99,
+      "category": "Blazer",
+      "short_description": "Sharp blazer perfect for business or casual."
+    },
+    {
+      
+      "image": "https://i5.walmartimages.com/asr/a98f455b-1050-4660-b08d-60a28bc7dd52.d2dfe6ac349e045b52e3de0381ad9b5c.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "product_name": "Summer Dress",
+      "brand": "Forever 21",
+      "price": 39.99,
+      "category": "Dress",
+      "short_description": "Light and airy dress ideal for summer."
+    },
+    {
+      
+      "image": "https://www.baubax.com/cdn/shop/articles/3.jpg?v=1592209461",
+      "product_name": "Chino Pants",
+      "brand": "Uniqlo",
+      "price": 49.99,
+      "category": "Pants",
+      "short_description": "Classic chinos with a slim fit for casual wear."
+    },
+    {
+      
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Rpk5pZLvedp2yugu4ReOxbSgTbQux0fkrg&s",
+      "product_name": "V-Neck Sweater",
+      "brand": "Ralph Lauren",
+      "price": 59.99,
+      "category": "Sweater",
+      "short_description": "Soft V-neck sweater made from premium cotton."
+    },
+    {
+      
+      "image": "https://xcdn.next.co.uk/COMMON/Items/Default/Default/ItemImages/AltItemShot/315x472/D45828s.jpg",
+      "product_name": "Puffer Jacket",
+      "brand": "North Face",
+      "price": 129.99,
+      "category": "Jacket",
+      "short_description": "Warm and durable puffer jacket for cold weather."
+    },
+    {
+      
+      "image": "https://target.scene7.com/is/image/Target/GUEST_62e86662-36b9-4339-95e3-d338c0e8b376?wid=488&hei=488&fmt=pjpeg",
+      "product_name": "Capri Leggings",
+      "brand": "Puma",
+      "price": 29.99,
+      "category": "Leggings",
+      "short_description": "Stretchy and comfortable capri leggings."
+    },
+    {
+      
+      "image": "https://www.instyle.com/thmb/oDlkgt3ikeIuSgWCelJDn6qFlmk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1402230779-b843951ec9aa49b8b36f1c38e5210dc7.jpg",
+      "product_name": "Tennis Skirt",
+      "brand": "Adidas",
+      "price": 44.99,
+      "category": "Skirt",
+      "short_description": "Performance tennis skirt with pleated design."
+    },
+    {
+      
+      "image": "https://m.media-amazon.com/images/I/71E7c09iTdL._AC_SL1500_.jpg",
+      "product_name": "Bomber Jacket",
+      "brand": "H&M",
+      "price": 69.99,
+      "category": "Jacket",
+      "short_description": "Trendy bomber jacket with ribbed cuffs."
+    },
+    {
+      
+      "image": "https://marksandspencer.com.ph/cdn/shop/files/SD_04_T87_3044V_HD_X_EC_90.jpg?v=1695966068",
+      "product_name": "Denim Shorts",
+      "brand": "Levi's",
+      "price": 39.99,
+      "category": "Shorts",
+      "short_description": "Classic denim shorts with a distressed finish."
+    },
+    {
+      
+      "image": "https://static-01.daraz.com.bd/p/ffa4ddee98effd222b018e98065f516d.jpg",
+      "product_name": "Pullover Hoodie",
+      "brand": "Nike",
+      "price": 59.99,
+      "category": "Hoodie",
+      "short_description": "Comfortable pullover hoodie with a relaxed fit."
+    },
+    {
+      
+      "image": "https://images.mlssoccer.com/image/private/t_q-best/mls-ner-prd/rs494p20yf6jq2i7ziqe.png",
+      "product_name": "Sports Bra",
+      "brand": "Reebok",
+      "price": 24.99,
+      "category": "Sportswear",
+      "short_description": "Supportive sports bra for high-intensity workouts."
+    },
+    {
+      
+      "image": "https://images.thenorthface.com/is/image/TheNorthFaceEU/852Z_3X4_hero?$262x306$",
+      "product_name": "Graphic Hoodie",
+      "brand": "Adidas",
+      "price": 69.99,
+      "category": "Hoodie",
+      "short_description": "Stylish graphic hoodie with a comfortable fit."
+    },
+    {
+      
+      "image": "https://i.cbc.ca/1.5307395.1570115409!/fileImage/httpImage/image.jpg_gen/derivatives/original_780/crop-tops.jpg",
+      "product_name": "Crop Top",
+      "brand": "Forever 21",
+      "price": 19.99,
+      "category": "Top",
+      "short_description": "Trendy crop top for casual outings."
+    },
+    {
+      
+      "image": "https://dynamic.zacdn.com/AuVkyVr1RCZMgRLZRVclO0ud4BM=/filters:quality(70):format(webp)/https://static-hk.zacdn.com/p/cotton-on-7327-4722266-4.jpg",
+      "product_name": "Linen Pants",
+      "brand": "Zara",
+      "price": 49.99,
+      "category": "Pants",
+      "short_description": "Lightweight linen pants for a relaxed look."
+    },
+    {
+      
+      "image": "https://freez.com.au/cdn/shop/files/RibbedJoggersDistressedFront.jpg?v=1717392613",
+      "product_name": "Ripped Skinny Jeans",
+      "brand": "Levi's",
+      "price": 59.99,
+      "category": "Jeans",
+      "short_description": "Edgy ripped skinny jeans with stretch fabric."
+    },
+    {
+      
+      "image": "https://www.bishwabazaar.com/wp-content/uploads/2019/11/Bishwa-Bazaar-Online-Shop-Bangladesh-India-Sri-Lanka-Nepal-Pakistan-Dubai-London-New-York-Retail-Faux-Leather-Biker-Jacket-for-Roadies.png",
+      "product_name": "Biker Jacket",
+      "brand": "Zara",
+      "price": 99.99,
+      "category": "Jacket",
+      "short_description": "Faux leather biker jacket with metal detailing."
+    },
+    {
+      
+      "image": "https://i.pinimg.com/originals/1e/d5/28/1ed528485b0a992c765de63b574010ed.jpg",
+      "product_name": "Turtleneck Sweater",
+      "brand": "Uniqlo",
+      "price": 39.99,
+      "category": "Sweater",
+      "short_description": "Cozy turtleneck sweater for a stylish winter."
+    },
+    {
+      
+      "image": "https://5.imimg.com/data5/CK/NH/MY-41246450/boys-casual-track-pant-500x500.jpg",
+      "product_name": "Track Pants",
+      "brand": "Puma",
+      "price": 44.99,
+      "category": "Pants",
+      "short_description": "Comfortable track pants with an elastic waistband."
+    },
+    {
+      
+      "image": "https://images-cdn.ubuy.co.in/65398cf87ff2e343381ba64b-damipow-mens-premium-casual-button-down.jpg",
+      "product_name": "Button-Down Shirt",
+      "brand": "Ralph Lauren",
+      "price": 49.99,
+      "category": "Shirt",
+      "short_description": "Classic button-down shirt with a slim fit."
+    },
+    {
+      
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREGof8TXJT7ptkgvyiRoa5ow_FXKxIVtIbqg&s",
+      "product_name": "Workout Leggings",
+      "brand": "Nike",
+      "price": 54.99,
+      "category": "Leggings",
+      "short_description": "High-performance leggings for intense workouts."
+    },
+    {
+      
+      "image": "https://nilsonline.lk/image/cache/catalog/nils/product/051001333/138-612x875.jpg",
+      "product_name": "Wrap Dress",
+      "brand": "Forever 21",
+      "price": 44.99,
+      "category": "Dress",
+      "short_description": "Elegant wrap dress with a flattering neckline."
+    },
+    {
+      
+      "image": "https://cdni.llbean.net/is/image/wim/502835_0_44?scl=2",
+      "product_name": "Corduroy Pants",
+      "brand": "H&M",
+      "price": 49.99,
+      "category": "Pants",
+      "short_description": "Classic corduroy pants for a retro look."
+    },
+    {
+      
+      "image": "https://www.threadshop.in/product-images/1.jpg/305785000006398148/600x600",
+      "product_name": "Lace Blouse",
+      "brand": "Zara",
+      "price": 39.99,
+      "category": "Blouse",
+      "short_description": "Delicate lace blouse for a chic style."
+    },
+    {
+      
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN2uwUumBIocylsHy9_DTWDKGV6X_hkI5isg&s",
+      "product_name": "Wool Coat",
+      "brand": "Uniqlo",
+      "price": 129.99,
+      "category": "Coat",
+      "short_description": "Elegant wool coat to keep you warm and stylish."
+    },
+    {
+      
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxq6lIZF_V64aWw4JPP-hwHXMIq1Bu6028AA&s",
+      "product_name": "Sneakers",
+      "brand": "Adidas",
+      "price": 79.99,
+      "category": "Shoes",
+      "short_description": "Comfortable sneakers for everyday wear."
+    },
+    {
+      
+      "image": "https://d1fufvy4xao6k9.cloudfront.net/images/landings/37/peacoat-coats-mob-1.jpg",
+      "product_name": "Peacoat",
+      "brand": "H&M",
+      "price": 99.99,
+      "category": "Coat",
+      "short_description": "Classic peacoat with a tailored fit."
+    }
+  ]
+  

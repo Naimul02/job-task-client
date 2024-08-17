@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Product from "./Product";
 import { ImSearch } from "react-icons/im";
 import Categories from "./Categories";
-import { IoIosArrowDown } from "react-icons/io";
+import DropdownMenu from "./DropdownMenu";
 
 
 const Products = () => {
@@ -50,6 +50,7 @@ const Products = () => {
             fetch(`http://localhost:5000/productsPerPage?page=${currentPage}&size=${itemsPerPage}`)
             .then(res => res.json())
             .then(data => {
+                console.log("dataaa : " , data)
                 setProductsPerPage(data);
                 setRecords(data)
             })
@@ -150,6 +151,33 @@ const Products = () => {
                 setRecords(data);
             })
     }
+
+
+    // low to high
+    const handleLowToHigh = () => {
+        
+        fetch(`http://localhost:5000/productsPerPage?page=${currentPage}&size=${itemsPerPage}`)
+            .then((res => res.json()))
+            .then((data) => {
+                console.log(data);
+
+                const result = data.sort((a , b) => a.price - b.price)
+                setRecords(result)
+            })
+    }
+
+    // high to low
+    const handleHighToLow = () => {
+        
+        fetch(`http://localhost:5000/productsPerPage?page=${currentPage}&size=${itemsPerPage}`)
+            .then((res => res.json()))
+            .then((data) => {
+                console.log(data);
+
+                const result = data.sort((a , b) => b.price - a.price)
+                setRecords(result)
+            })
+    }
     return (
         <div>
             <h1 className="text-2xl font-semibold text-center mb-2  pb-2 underline">Our Products</h1>
@@ -162,17 +190,10 @@ const Products = () => {
             </div>
             </div>
 
-            {/* dropdown menu */}
-            <div className=" mx-[70px] flex justify-end">
-            <div className="dropdown dropdown-end" >
-  <div tabIndex={0} role="button" className="btn m-1 bg-white hover:bg-white w-[229px] border rounded-none">Sort Products By  <IoIosArrowDown className="text-2xl font-semibold"/></div>
-  <ul tabIndex={0} className="dropdown-content menu bg-white border rounded-none z-[1] w-[229px] p-2 shadow">
-    <li><a> Low to High</a></li>
-    <li><a> High to Low</a></li>
-    <li><a>Newest first</a></li>
-  </ul>
-</div>
-            </div>
+          {/* dropdown menu */}
+            <DropdownMenu handleLowToHigh={handleLowToHigh} handleHighToLow={handleHighToLow}></DropdownMenu>
+
+
             <div className="grid lg:grid-cols-5 gap-3 mx-[70px] mt-2">
 
                 {/* category*/}
@@ -182,7 +203,8 @@ const Products = () => {
                 </div>
                  <div  className="grid grid-cols-1 lg:grid-cols-4 gap-4 col-span-4">
                 {
-                    records?.map(product => <Product product={product}></Product>)
+                   
+                   records?.map(product => <Product product={product}></Product>)
                 }
                 </div>
 

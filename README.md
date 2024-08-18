@@ -1,7 +1,7 @@
-# MERN Stack Project - Frontend
+### MERN Stack Project - Frontend
 
 This is the frontend of the MERN stack project, built with React.js , TailwindCSS , react-router-dom etc.
-## Prerequisites
+### Prerequisites
 
 Ensure you have the following installed:
 
@@ -12,6 +12,16 @@ Ensure you have the following installed:
 
    ```bash
    git clone https://github.com/Naimul02/job-task-client.git
-   cd frontend-repo
+   cd job-task-client
+
+### Install the dependencies:
+   npm install
+# or
+yarn install
+
+### running the project locally.
+npm run dev
+# or
+yarn run dev
 
 

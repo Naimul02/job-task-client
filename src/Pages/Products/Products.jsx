@@ -83,17 +83,6 @@ const Products = () => {
 
 
 
-    // categories
-    // const [brand , setBrand] = useState({brand : undefined , category : undefined , price : undefined});
-    // console.log("brand" , brand);
-    // useEffect(() => {
-    //     fetch(`https://job-task-server-roan.vercel.app/categoryBrand?brand=${brand?.brand}&category=${brand?.category}&price=${brand?.price}&category=${brand?.category}&price=${brand?.price}`)
-    //     .then(res => res.json())
-    //     .then(data => {
-    //         console.log("products :  " , data);
-    //         setRecords(data)
-    //     })
-    // } , [brand])
     
     
 

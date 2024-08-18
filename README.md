@@ -16,12 +16,12 @@ Ensure you have the following installed:
 
 ### Install the dependencies:
    npm install
-# or
+### or
 yarn install
 
 ### running the project locally.
 npm run dev
-# or
+### or
 yarn run dev
 
 

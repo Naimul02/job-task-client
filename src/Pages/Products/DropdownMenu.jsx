@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
 
-const DropdownMenu = ({handleLowToHigh , handleHighToLow}) => {
+const DropdownMenu = ({handleLowToHigh , handleHighToLow , handleDate}) => {
     return (
           
           <div className=" mx-[70px] flex justify-end">
@@ -10,7 +10,7 @@ const DropdownMenu = ({handleLowToHigh , handleHighToLow}) => {
     <ul tabIndex={0} className="dropdown-content menu bg-white border rounded-none z-[1] w-[229px] p-2 shadow">
     <li onClick={handleLowToHigh}><a>Low to High</a></li>
     <li onClick={handleHighToLow}><a>High to Low</a></li>
-    <li ><a>Newest first</a></li>
+    <li onClick={handleDate}><a>Newest first (Date)</a></li>
 </ul>
 </div>
           </div>

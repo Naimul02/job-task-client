@@ -28,7 +28,7 @@ const Products = () => {
 
 
     useEffect(() => {
-        fetch("http://localhost:5000/products")
+        fetch("https://job-task-server-roan.vercel.app/products")
         .then(res => res.json())
         .then(data => {
             // console.log(data)
@@ -37,7 +37,7 @@ const Products = () => {
     } , [])
 
     useEffect(() => {
-        fetch("http://localhost:5000/productsCount")
+        fetch("https://job-task-server-roan.vercel.app/productsCount")
         .then(res => res.json())
         .then(data => {
             // console.log(data)
@@ -47,7 +47,7 @@ const Products = () => {
     } , [])
 
     useEffect(() => {
-            fetch(`http://localhost:5000/productsPerPage?page=${currentPage}&size=${itemsPerPage}`)
+            fetch(`https://job-task-server-roan.vercel.app/productsPerPage?page=${currentPage}&size=${itemsPerPage}`)
             .then(res => res.json())
             .then(data => {
                 console.log("dataaa : " , data)
@@ -87,7 +87,7 @@ const Products = () => {
     // const [brand , setBrand] = useState({brand : undefined , category : undefined , price : undefined});
     // console.log("brand" , brand);
     // useEffect(() => {
-    //     fetch(`http://localhost:5000/categoryBrand?brand=${brand?.brand}&category=${brand?.category}&price=${brand?.price}&category=${brand?.category}&price=${brand?.price}`)
+    //     fetch(`https://job-task-server-roan.vercel.app/categoryBrand?brand=${brand?.brand}&category=${brand?.category}&price=${brand?.price}&category=${brand?.category}&price=${brand?.price}`)
     //     .then(res => res.json())
     //     .then(data => {
     //         console.log("products :  " , data);
@@ -101,6 +101,7 @@ const Products = () => {
     // const [category , setCategory] = useState({brand : '' , category : '' , price});
     const [brand , setBrand] = useState("");
     const handleBrandCategories = (data) => {
+        console.log("data" , data)
         // setBrand(prevFilters => ({
         //     // ...prevFilters,
         //     ...prevFilters,
@@ -109,7 +110,7 @@ const Products = () => {
 
         setBrand(data)
 
-        fetch(`http://localhost:5000/categoryBrand?brand=${data}`)
+        fetch(`https://job-task-server-roan.vercel.app/categoryBrand?brand=${data}`)
             .then(res => res.json())
             .then(data => {
                 console.log("products brand :  " , data);
@@ -125,7 +126,7 @@ const Products = () => {
         // }))
         setBrand(data)
 
-        fetch(`http://localhost:5000/category?category=${data}`)
+        fetch(`https://job-task-server-roan.vercel.app/category?category=${data}`)
             .then(res => res.json())
             .then(data => {
                 console.log("products category :  " , data);
@@ -144,7 +145,7 @@ const Products = () => {
         // ))
         setBrand(`${min} - ${max}`)
         
-        fetch(`http://localhost:5000/price?minPrice=${min}&maxPrice=${max}`)
+        fetch(`https://job-task-server-roan.vercel.app/price?minPrice=${min}&maxPrice=${max}`)
             .then(res => res.json())
             .then(data => {
                 console.log("products category :  " , data);
@@ -154,22 +155,23 @@ const Products = () => {
 
 
     // low to high
+
     const handleLowToHigh = () => {
         
-        fetch(`http://localhost:5000/productsPerPage?page=${currentPage}&size=${itemsPerPage}`)
+        fetch(`https://job-task-server-roan.vercel.app/productsPerPage?page=${currentPage}&size=${itemsPerPage}`)
             .then((res => res.json()))
             .then((data) => {
-                console.log(data);
-
                 const result = data.sort((a , b) => a.price - b.price)
                 setRecords(result)
             })
     }
 
     // high to low
+    
     const handleHighToLow = () => {
+            
         
-        fetch(`http://localhost:5000/productsPerPage?page=${currentPage}&size=${itemsPerPage}`)
+        fetch(`https://job-task-server-roan.vercel.app/productsPerPage?page=${currentPage}&size=${itemsPerPage}`)
             .then((res => res.json()))
             .then((data) => {
                 console.log(data);
@@ -178,8 +180,23 @@ const Products = () => {
                 setRecords(result)
             })
     }
+    // handle date
+    const handleDate = () => {
+        fetch(`https://job-task-server-roan.vercel.app/productsPerPage?page=${currentPage}&size=${itemsPerPage}`)
+        .then((res => res.json()))
+        .then((data) => {
+            console.log("server data" , data);
+
+            
+            const result =   data.sort((a , b) => new Date(b.date) - new Date(a.date));
+             setRecords(result);
+        })
+    }
     return (
         <div>
+            <div className="">
+            <marquee className="text-xl font-bold text-blue-500">পানি লাগবে পানি । (মুগ্ধ ভাই) । আল্লাহ আমার মুগ্ধ ভাইয়ের মতো যারা শহিদ হয়েছেন সবাইকে জান্নাত দান করুন।</marquee>
+            </div>
             <h1 className="text-2xl font-semibold text-center mb-2  pb-2 underline">Our Products</h1>
             <div className="flex justify-center mb-3">
             <div className="flex items-center">
@@ -191,17 +208,17 @@ const Products = () => {
             </div>
 
           {/* dropdown menu */}
-            <DropdownMenu handleLowToHigh={handleLowToHigh} handleHighToLow={handleHighToLow}></DropdownMenu>
+            <DropdownMenu  handleLowToHigh={handleLowToHigh} handleHighToLow={handleHighToLow} handleDate={handleDate}></DropdownMenu>
 
 
-            <div className="grid lg:grid-cols-5 gap-3 mx-[70px] mt-2">
+            <div className="grid grid-cols-1 lg:grid-cols-5 gap-3 lg:mx-[70px] mx-3 mt-2">
 
                 {/* category*/}
 
-                <div className="col-span-1">
-                <Categories handleCategories={handleCategories} handleBrandCategories={handleBrandCategories} brand={brand} handlePrice={handlePrice}></Categories>
+                <div className="lg:col-span-1">
+                <Categories handleCategories={handleCategories} handleBrandCategories={handleBrandCategories} brand={brand} handlePrice={handlePrice} ></Categories>
                 </div>
-                 <div  className="grid grid-cols-1 lg:grid-cols-4 gap-4 col-span-4">
+                 <div  className="grid grid-cols-1 lg:grid-cols-4  gap-4  lg:col-span-4">
                 {
                    
                    records?.map(product => <Product product={product}></Product>)
@@ -223,9 +240,10 @@ const Products = () => {
 
             {/* select optioin */}
             <select name="" id="" value={itemsPerPage} onChange={handleItemsPerPage} className='border-2 px-2 rounded-lg'>
-                        <option value="10">10</option>
+                        
                         <option value="16">16</option>
                         <option value="20">20</option>
+                        <option value="30">30</option>
             </select>
             </div>
         </div>

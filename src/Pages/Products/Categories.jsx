@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-const Categories = ({handleCategories,handleBrandCategories  ,handlePrice, brand}) => {
+const Categories = ({handleCategories,handleBrandCategories  ,handlePrice, brand }) => {
     console.log("brand  : " , brand);
 
         
@@ -13,7 +13,7 @@ const Categories = ({handleCategories,handleBrandCategories  ,handlePrice, brand
             
             <div className="collapse collapse-plus bg-base-200 rounded-none">
   <input type="radio" name="my-accordion-3" defaultChecked />
-  <div className="collapse-title text-xl font-medium">Brand Name</div>
+  <div className="collapse-title text-base lg:text-xl font-medium">Brand Name</div>
   <div className="collapse-content space-y-2">
     <p className={`text-base font-semibold hover:cursor-pointer ${brand === "Levi's"  && "bg-blue-600 text-white  py-1 pl-2"}`}onClick={() => handleBrandCategories("Levi's")}>Levi's</p>
     <p className={`text-base font-semibold hover:cursor-pointer ${brand === "Nike"  && "bg-blue-600 text-white  py-1 pl-2"}`}onClick={() => handleBrandCategories("Nike")}>Nike</p>
@@ -31,7 +31,7 @@ const Categories = ({handleCategories,handleBrandCategories  ,handlePrice, brand
 </div>
 <div className="collapse collapse-plus bg-base-200 rounded-none">
   <input type="radio" name="my-accordion-3" />
-  <div className="collapse-title text-xl font-medium">Category Name</div>
+  <div className="collapse-title text-base lg:text-xl font-medium">Category Name</div>
   <div className="collapse-content space-y-2">
     <p className={`text-base font-semibold hover:cursor-pointer ${brand === "Jeans"  && "bg-blue-600 text-white  py-1 pl-2"}`}onClick={() => handleCategories("Jeans")}>Jeans</p>
     <p className={`text-base font-semibold hover:cursor-pointer ${brand === "T-Shirt"  && "bg-blue-600 text-white  py-1 pl-2"}`}onClick={() => handleCategories("T-Shirt")}>T-Shirt</p>
@@ -57,7 +57,7 @@ const Categories = ({handleCategories,handleBrandCategories  ,handlePrice, brand
 </div>
 <div className="collapse collapse-plus bg-base-200 rounded-none">
   <input type="radio" name="my-accordion-3" />
-  <div className="collapse-title text-xl font-medium">Price Range</div>
+  <div className="collapse-title text-base lg:text-xl font-medium">Price Range</div>
   <div className="collapse-content space-y-2">
   <p className={`text-base font-semibold hover:cursor-pointer ${brand === "10 - 30"  && "bg-blue-600 text-white  py-1 pl-2"}`}onClick={() => handlePrice(10 , 30)}>$10 - $30</p>
   <p className={ `text-base font-semibold hover:cursor-pointer ${brand === "30 - 60"  && "bg-blue-600 text-white  py-1 pl-2"}`}onClick={() => handlePrice(30 , 60)}>$30 - $60</p>

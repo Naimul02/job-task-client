@@ -6,7 +6,9 @@
       "brand": "Levi's",
       "price": 49.99,
       "category": "Jeans",
-      "short_description": "Classic slim fit denim jeans for all-day comfort."
+      "short_description": "Classic slim fit denim jeans for all-day comfort.",
+      "date": "08/16/2024"
+      
     },
     {
       
@@ -15,7 +17,8 @@
       "brand": "Nike",
       "price": 24.99,
       "category": "T-Shirt",
-      "short_description": "Soft cotton t-shirt with bold graphic design."
+      "short_description": "Soft cotton t-shirt with bold graphic design.",
+      "date": "08/15/2024"
     },
     {
       
@@ -24,7 +27,8 @@
       "brand": "Adidas",
       "price": 59.99,
       "category": "Sweatshirt",
-      "short_description": "Comfortable hoodie with adjustable drawstring."
+      "short_description": "Comfortable hoodie with adjustable drawstring.",
+      "date": "08/14/2024"
     },
     {
       
@@ -33,7 +37,8 @@
       "brand": "H&M",
       "price": 39.99,
       "category": "Shirt",
-      "short_description": "Crisp white dress shirt for formal occasions."
+      "short_description": "Crisp white dress shirt for formal occasions.",
+      "date": "08/16/2024"
     },
     {
       
@@ -42,7 +47,8 @@
       "brand": "Zara",
       "price": 89.99,
       "category": "Jacket",
-      "short_description": "Stylish leather jacket with zipper detailing."
+      "short_description": "Stylish leather jacket with zipper detailing.",
+      "date": "08/12/2024"
     },
     {
       
@@ -51,7 +57,8 @@
       "brand": "Puma",
       "price": 29.99,
       "category": "Shorts",
-      "short_description": "Breathable fabric casual shorts for daily wear."
+      "short_description": "Breathable fabric casual shorts for daily wear.",
+      "date": "08/11/2024"
     },
     {
       
@@ -60,7 +67,8 @@
       "brand": "Reebok",
       "price": 69.99,
       "category": "Tracksuit",
-      "short_description": "Lightweight tracksuit perfect for workouts."
+      "short_description": "Lightweight tracksuit perfect for workouts.",
+      "date": "08/13/2024"
     },
     {
       
@@ -69,7 +77,8 @@
       "brand": "Forever 21",
       "price": 49.99,
       "category": "Dress",
-      "short_description": "Flowy floral print dress with a flattering fit."
+      "short_description": "Flowy floral print dress with a flattering fit.",
+      "date": "08/20/2024"
     },
     {
       
@@ -78,7 +87,8 @@
       "brand": "Uniqlo",
       "price": 59.99,
       "category": "Sweater",
-      "short_description": "Cozy woolen sweater perfect for winter."
+      "short_description": "Cozy woolen sweater perfect for winter.",
+      "date": "08/18/2024"
     },
     {
       
@@ -87,7 +97,8 @@
       "brand": "Gap",
       "price": 44.99,
       "category": "Pants",
-      "short_description": "Comfortable cargo pants with multiple pockets."
+      "short_description": "Comfortable cargo pants with multiple pockets.",
+      "date": "08/14/2024"
     },
     {
       
@@ -96,7 +107,8 @@
       "brand": "Levi's",
       "price": 69.99,
       "category": "Jacket",
-      "short_description": "Classic denim jacket with a modern fit."
+      "short_description": "Classic denim jacket with a modern fit.",
+      "date": "08/22/2024"
     },
     {
       
@@ -105,7 +117,8 @@
       "brand": "Ralph Lauren",
       "price": 39.99,
       "category": "Shirt",
-      "short_description": "Iconic polo shirt with embroidered logo."
+      "short_description": "Iconic polo shirt with embroidered logo.",
+      "date": "08/02/2024"
     },
     {
       
@@ -114,7 +127,8 @@
       "brand": "H&M",
       "price": 34.99,
       "category": "Skirt",
-      "short_description": "Elegant maxi skirt with a flowing silhouette."
+      "short_description": "Elegant maxi skirt with a flowing silhouette.",
+      "date": "08/29/2024"
     },
     {
       
@@ -123,7 +137,8 @@
       "brand": "Nike",
       "price": 89.99,
       "category": "Shoes",
-      "short_description": "Lightweight running shoes for ultimate comfort."
+      "short_description": "Lightweight running shoes for ultimate comfort.",
+      "date": "08/27/2024"
     },
     {
       
@@ -132,7 +147,8 @@
       "brand": "Zara",
       "price": 79.99,
       "category": "Blazer",
-      "short_description": "Sharp blazer perfect for business or casual."
+      "short_description": "Sharp blazer perfect for business or casual.",
+      "date": "08/25/2024"
     },
     {
       
@@ -141,7 +157,8 @@
       "brand": "Forever 21",
       "price": 39.99,
       "category": "Dress",
-      "short_description": "Light and airy dress ideal for summer."
+      "short_description": "Light and airy dress ideal for summer.",
+      "date": "08/12/2024"
     },
     {
       
@@ -150,7 +167,8 @@
       "brand": "Uniqlo",
       "price": 49.99,
       "category": "Pants",
-      "short_description": "Classic chinos with a slim fit for casual wear."
+      "short_description": "Classic chinos with a slim fit for casual wear.",
+      "date": "08/17/2024"
     },
     {
       
@@ -159,7 +177,8 @@
       "brand": "Ralph Lauren",
       "price": 59.99,
       "category": "Sweater",
-      "short_description": "Soft V-neck sweater made from premium cotton."
+      "short_description": "Soft V-neck sweater made from premium cotton.",
+      "date": "08/15/2024"
     },
     {
       
@@ -168,7 +187,8 @@
       "brand": "North Face",
       "price": 129.99,
       "category": "Jacket",
-      "short_description": "Warm and durable puffer jacket for cold weather."
+      "short_description": "Warm and durable puffer jacket for cold weather.",
+      "date": "08/19/2024"
     },
     {
       
@@ -177,7 +197,8 @@
       "brand": "Puma",
       "price": 29.99,
       "category": "Leggings",
-      "short_description": "Stretchy and comfortable capri leggings."
+      "short_description": "Stretchy and comfortable capri leggings.",
+      "date": "08/15/2024"
     },
     {
       
@@ -186,7 +207,8 @@
       "brand": "Adidas",
       "price": 44.99,
       "category": "Skirt",
-      "short_description": "Performance tennis skirt with pleated design."
+      "short_description": "Performance tennis skirt with pleated design.",
+      "date": "08/09/2024"
     },
     {
       
@@ -195,7 +217,8 @@
       "brand": "H&M",
       "price": 69.99,
       "category": "Jacket",
-      "short_description": "Trendy bomber jacket with ribbed cuffs."
+      "short_description": "Trendy bomber jacket with ribbed cuffs.",
+      "date": "08/11/2024"
     },
     {
       
@@ -204,7 +227,8 @@
       "brand": "Levi's",
       "price": 39.99,
       "category": "Shorts",
-      "short_description": "Classic denim shorts with a distressed finish."
+      "short_description": "Classic denim shorts with a distressed finish.",
+      "date": "08/06/2024"
     },
     {
       
@@ -213,7 +237,8 @@
       "brand": "Nike",
       "price": 59.99,
       "category": "Hoodie",
-      "short_description": "Comfortable pullover hoodie with a relaxed fit."
+      "short_description": "Comfortable pullover hoodie with a relaxed fit.",
+      "date": "08/03/2024"
     },
     {
       
@@ -222,7 +247,8 @@
       "brand": "Reebok",
       "price": 24.99,
       "category": "Sportswear",
-      "short_description": "Supportive sports bra for high-intensity workouts."
+      "short_description": "Supportive sports bra for high-intensity workouts.",
+      "date": "08/05/2024"
     },
     {
       
@@ -231,7 +257,8 @@
       "brand": "Adidas",
       "price": 69.99,
       "category": "Hoodie",
-      "short_description": "Stylish graphic hoodie with a comfortable fit."
+      "short_description": "Stylish graphic hoodie with a comfortable fit.",
+      "date": "08/08/2024"
     },
     {
       
@@ -240,7 +267,8 @@
       "brand": "Forever 21",
       "price": 19.99,
       "category": "Top",
-      "short_description": "Trendy crop top for casual outings."
+      "short_description": "Trendy crop top for casual outings.",
+      "date": "08/04/2024"
     },
     {
       
@@ -249,7 +277,8 @@
       "brand": "Zara",
       "price": 49.99,
       "category": "Pants",
-      "short_description": "Lightweight linen pants for a relaxed look."
+      "short_description": "Lightweight linen pants for a relaxed look.",
+      "date": "08/15/2024"
     },
     {
       
@@ -258,7 +287,8 @@
       "brand": "Levi's",
       "price": 59.99,
       "category": "Jeans",
-      "short_description": "Edgy ripped skinny jeans with stretch fabric."
+      "short_description": "Edgy ripped skinny jeans with stretch fabric.",
+      "date": "08/14/2024"
     },
     {
       
@@ -267,7 +297,8 @@
       "brand": "Zara",
       "price": 99.99,
       "category": "Jacket",
-      "short_description": "Faux leather biker jacket with metal detailing."
+      "short_description": "Faux leather biker jacket with metal detailing.",
+      "date": "08/19/2024"
     },
     {
       
@@ -276,7 +307,8 @@
       "brand": "Uniqlo",
       "price": 39.99,
       "category": "Sweater",
-      "short_description": "Cozy turtleneck sweater for a stylish winter."
+      "short_description": "Cozy turtleneck sweater for a stylish winter.",
+      "date": "08/21/2024"
     },
     {
       
@@ -285,7 +317,8 @@
       "brand": "Puma",
       "price": 44.99,
       "category": "Pants",
-      "short_description": "Comfortable track pants with an elastic waistband."
+      "short_description": "Comfortable track pants with an elastic waistband.",
+      "date": "08/19/2024"
     },
     {
       
@@ -294,7 +327,8 @@
       "brand": "Ralph Lauren",
       "price": 49.99,
       "category": "Shirt",
-      "short_description": "Classic button-down shirt with a slim fit."
+      "short_description": "Classic button-down shirt with a slim fit.",
+      "date": "08/24/2024"
     },
     {
       
@@ -303,7 +337,8 @@
       "brand": "Nike",
       "price": 54.99,
       "category": "Leggings",
-      "short_description": "High-performance leggings for intense workouts."
+      "short_description": "High-performance leggings for intense workouts.",
+      "date": "08/23/2024"
     },
     {
       
@@ -312,7 +347,8 @@
       "brand": "Forever 21",
       "price": 44.99,
       "category": "Dress",
-      "short_description": "Elegant wrap dress with a flattering neckline."
+      "short_description": "Elegant wrap dress with a flattering neckline.",
+      "date": "08/27/2024"
     },
     {
       
@@ -321,7 +357,8 @@
       "brand": "H&M",
       "price": 49.99,
       "category": "Pants",
-      "short_description": "Classic corduroy pants for a retro look."
+      "short_description": "Classic corduroy pants for a retro look.",
+      "date": "08/17/2024"
     },
     {
       
@@ -330,7 +367,8 @@
       "brand": "Zara",
       "price": 39.99,
       "category": "Blouse",
-      "short_description": "Delicate lace blouse for a chic style."
+      "short_description": "Delicate lace blouse for a chic style.",
+      "date": "08/25/2024"
     },
     {
       
@@ -339,7 +377,8 @@
       "brand": "Uniqlo",
       "price": 129.99,
       "category": "Coat",
-      "short_description": "Elegant wool coat to keep you warm and stylish."
+      "short_description": "Elegant wool coat to keep you warm and stylish.",
+      "date": "08/07/2024"
     },
     {
       
@@ -348,7 +387,8 @@
       "brand": "Adidas",
       "price": 79.99,
       "category": "Shoes",
-      "short_description": "Comfortable sneakers for everyday wear."
+      "short_description": "Comfortable sneakers for everyday wear.",
+      "date": "08/08/2024"
     },
     {
       
@@ -357,7 +397,8 @@
       "brand": "H&M",
       "price": 99.99,
       "category": "Coat",
-      "short_description": "Classic peacoat with a tailored fit."
+      "short_description": "Classic peacoat with a tailored fit.",
+      "date": "08/22/2024"
     }
   ]
   

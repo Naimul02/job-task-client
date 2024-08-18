@@ -1,4 +1,4 @@
-### MERN Stack Project - Frontend
+### MERN Stack Project - job-task-client
 
 This is the frontend of the MERN stack project, built with React.js , TailwindCSS , react-router-dom etc.
 ### Prerequisites

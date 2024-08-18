@@ -3,6 +3,7 @@
 const Footer = () => {
     return (
       <div>
+        {/* footer */}
       <footer className="footer px-20 py-10  bg-blue-600 text-white mt-10">
         <aside>
           <img
